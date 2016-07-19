@@ -1,0 +1,11 @@
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\DogDaycareTracker.Core.Fakes.xml
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\DogDaycareTracker.Core.Fakes.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\DogDaycareTracker.Core.Fakes.pdb
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\DogDaycareTracker.Core.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\DogDaycareTracker.Core.pdb
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\b\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\o\f.csprojResolveAssemblyReference.cache
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\o\DogDaycareTracker.Core.Fakes.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\obj\Debug\Fakes\ddtc\o\DogDaycareTracker.Core.Fakes.pdb

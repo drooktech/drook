@@ -1,0 +1,7 @@
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate stub for DogDaycareTracker.Core.DogSize: type is a value type.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate stub for DogDaycareTracker.Core.DogYard: type is a value type.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate shim for DogDaycareTracker.Core.DogSize: type is an enum.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate shim for DogDaycareTracker.Core.DogYard: type is an enum.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate shim for DogDaycareTracker.Core.IDog: type is an interface.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate shim for DogDaycareTracker.Core.IDogFactory: type is an interface.
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDayCareTracker.Common.Tests\Fakes\DogDaycareTracker.Core.fakes : warning : Cannot generate shim for DogDaycareTracker.Core.IDogSizeDecider: type is an interface.

@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DogDaycareTracker.Core.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider">
+            <summary>Shim type of DogDaycareTracker.Core.DayCareYardDecider</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.#ctor(DogDaycareTracker.Core.DayCareYardDecider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.AllInstances.WhichYardCanDogPlayIn">
+            <summary>Sets the shim of DayCareYardDecider.WhichYardCanDogPlayIn()</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.ConstructorIDogIDogSizeDecider">
+            <summary>Sets the shim of DayCareYardDecider.DayCareYardDecider(IDog dog, IDogSizeDecider dogSizeDecider)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDayCareYardDecider.WhichYardCanDogPlayIn">
+            <summary>Sets the shim of DayCareYardDecider.WhichYardCanDogPlayIn()</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDog">
+            <summary>Shim type of DogDaycareTracker.Core.Dog</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDog.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDog.#ctor(DogDaycareTracker.Core.Dog)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDog.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.AllInstances.HasAlreadyBeenVerifiedGet">
+            <summary>Sets the shim of Dog.get_HasAlreadyBeenVerified()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.AllInstances.HasAlreadyBeenVerifiedSetBoolean">
+            <summary>Sets the shim of Dog.set_HasAlreadyBeenVerified(Boolean value)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.AllInstances.WeightGet">
+            <summary>Sets the shim of Dog.get_Weight()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.AllInstances.WeightSetInt32">
+            <summary>Sets the shim of Dog.set_Weight(Int32 value)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDog.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDog.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDog.Bind(DogDaycareTracker.Core.IDog)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.ConstructorInt32">
+            <summary>Sets the shim of Dog.Dog(Int32 dogId)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.HasAlreadyBeenVerifiedGet">
+            <summary>Sets the shim of Dog.get_HasAlreadyBeenVerified()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.HasAlreadyBeenVerifiedSetBoolean">
+            <summary>Sets the shim of Dog.set_HasAlreadyBeenVerified(Boolean value)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.WeightGet">
+            <summary>Sets the shim of Dog.get_Weight()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDog.WeightSetInt32">
+            <summary>Sets the shim of Dog.set_Weight(Int32 value)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier">
+            <summary>Shim type of DogDaycareTracker.Core.DogCanPalyInYardVerifier</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.#ctor(DogDaycareTracker.Core.DogCanPalyInYardVerifier)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.AllInstances.DogIsVerifiedToPlayInYardByIDInt32">
+            <summary>Sets the shim of DogCanPalyInYardVerifier.DogIsVerifiedToPlayInYardByID(Int32 dogId)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.AllInstances.DogIsVerifiedToPlayInYardDog">
+            <summary>Sets the shim of DogCanPalyInYardVerifier.DogIsVerifiedToPlayInYard(Dog dog)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.Constructor">
+            <summary>Sets the shim of DogCanPalyInYardVerifier.DogCanPalyInYardVerifier()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.DogIsVerifiedToPlayInYardByIDInt32">
+            <summary>Sets the shim of DogCanPalyInYardVerifier.DogIsVerifiedToPlayInYardByID(Int32 dogId)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogCanPalyInYardVerifier.DogIsVerifiedToPlayInYardDog">
+            <summary>Sets the shim of DogCanPalyInYardVerifier.DogIsVerifiedToPlayInYard(Dog dog)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogFactory">
+            <summary>Shim type of DogDaycareTracker.Core.DogFactory</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogFactory.#ctor(DogDaycareTracker.Core.DogFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogFactory.AllInstances.GetDogInt32">
+            <summary>Sets the shim of DogFactory.GetDog(Int32 dogId)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogFactory.Bind(DogDaycareTracker.Core.IDogFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogFactory.Constructor">
+            <summary>Sets the shim of DogFactory.DogFactory()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogFactory.GetDogInt32">
+            <summary>Sets the shim of DogFactory.GetDog(Int32 dogId)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider">
+            <summary>Shim type of DogDaycareTracker.Core.DogSizeDecider</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.#ctor(DogDaycareTracker.Core.DogSizeDecider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.AllInstances.DecideTheDogSzieInt32">
+            <summary>Sets the shim of DogSizeDecider.DecideTheDogSzie(Int32 theDogSize)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.Bind(DogDaycareTracker.Core.IDogSizeDecider)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.Constructor">
+            <summary>Sets the shim of DogSizeDecider.DogSizeDecider()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogSizeDecider.DecideTheDogSzieInt32">
+            <summary>Sets the shim of DogSizeDecider.DecideTheDogSzie(Int32 theDogSize)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated">
+            <summary>Shim type of DogDaycareTracker.Core.DogYardComtaminated</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.#ctor(DogDaycareTracker.Core.DogYardComtaminated)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.AllInstances.IsDogYardComtaminated">
+            <summary>Sets the shim of DogYardComtaminated.IsDogYardComtaminated()</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.Constructor">
+            <summary>Sets the shim of DogYardComtaminated.DogYardComtaminated()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardComtaminated.IsDogYardComtaminated">
+            <summary>Sets the shim of DogYardComtaminated.IsDogYardComtaminated()</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer">
+            <summary>Shim type of DogDaycareTracker.Core.DogYardIsOpenDeterminer</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.#ctor(DogDaycareTracker.Core.DogYardIsOpenDeterminer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.AllInstances.IsDogYardOpen">
+            <summary>Sets the shim of DogYardIsOpenDeterminer.IsDogYardOpen()</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.Constructor">
+            <summary>Sets the shim of DogYardIsOpenDeterminer.DogYardIsOpenDeterminer()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimDogYardIsOpenDeterminer.IsDogYardOpen">
+            <summary>Sets the shim of DogYardIsOpenDeterminer.IsDogYardOpen()</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimHolidays">
+            <summary>Shim type of DogDaycareTracker.Core.Holidays</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimHolidays.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimHolidays.#ctor(DogDaycareTracker.Core.Holidays)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimHolidays.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimHolidays.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimHolidays.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimHolidays.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimHolidays.Constructor">
+            <summary>Sets the shim of Holidays.Holidays()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimHolidays.IsTodayADogDayCareHoliday">
+            <summary>Sets the shim of Holidays.IsTodayADogDayCareHoliday()</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier">
+            <summary>Shim type of DogDaycareTracker.Core.PalyInYardVerifier</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.#ctor(DogDaycareTracker.Core.PalyInYardVerifier)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.AllInstances._dogFactoryGet">
+            <summary>Sets the shim of PalyInYardVerifier.get__dogFactory()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.AllInstances._dogFactorySetIDogFactory">
+            <summary>Sets the shim of PalyInYardVerifier.set__dogFactory(IDogFactory value)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier.Constructor">
+            <summary>Sets the shim of PalyInYardVerifier.PalyInYardVerifier()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier._dogFactoryGet">
+            <summary>Sets the shim of PalyInYardVerifier.get__dogFactory()</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.ShimPalyInYardVerifier._dogFactorySetIDogFactory">
+            <summary>Sets the shim of PalyInYardVerifier.set__dogFactory(IDogFactory value)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider">
+            <summary>Stub type of DogDaycareTracker.Core.DayCareYardDecider</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider.#ctor(DogDaycareTracker.Core.IDog,DogDaycareTracker.Core.IDogSizeDecider)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider.InitializeStub">
+            <summary>Initializes a new instance of type StubDayCareYardDecider</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDayCareYardDecider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDog">
+            <summary>Stub type of DogDaycareTracker.Core.Dog</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDog.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDog.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDog.InitializeStub">
+            <summary>Initializes a new instance of type StubDog</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDog.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDog.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier">
+            <summary>Stub type of DogDaycareTracker.Core.DogCanPalyInYardVerifier</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier.InitializeStub">
+            <summary>Initializes a new instance of type StubDogCanPalyInYardVerifier</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogCanPalyInYardVerifier.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDogFactory">
+            <summary>Stub type of DogDaycareTracker.Core.DogFactory</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubDogFactory</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDogSizeDecider">
+            <summary>Stub type of DogDaycareTracker.Core.DogSizeDecider</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogSizeDecider.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogSizeDecider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogSizeDecider.InitializeStub">
+            <summary>Initializes a new instance of type StubDogSizeDecider</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogSizeDecider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogSizeDecider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated">
+            <summary>Stub type of DogDaycareTracker.Core.DogYardComtaminated</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated.InitializeStub">
+            <summary>Initializes a new instance of type StubDogYardComtaminated</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardComtaminated.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer">
+            <summary>Stub type of DogDaycareTracker.Core.DogYardIsOpenDeterminer</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer.InitializeStub">
+            <summary>Initializes a new instance of type StubDogYardIsOpenDeterminer</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubDogYardIsOpenDeterminer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubHolidays">
+            <summary>Stub type of DogDaycareTracker.Core.Holidays</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubHolidays.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubHolidays.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubHolidays.InitializeStub">
+            <summary>Initializes a new instance of type StubHolidays</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubHolidays.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubHolidays.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubIDog">
+            <summary>Stub type of DogDaycareTracker.Core.IDog</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDog.#ctor">
+            <summary>Initializes a new instance of type StubIDog</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDog.AttachBackingFieldToHasAlreadyBeenVerified">
+            <summary>Attaches delegates to emulate StubIDog.HasAlreadyBeenVerified as a property with a backing field.</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDog.AttachBackingFieldToWeight">
+            <summary>Attaches delegates to emulate StubIDog.Weight as a property with a backing field.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubIDog.DogDaycareTracker#Core#IDog#HasAlreadyBeenVerified">
+            <summary>Sets the stub of IDog.get_HasAlreadyBeenVerified()</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDog.HasAlreadyBeenVerifiedGet">
+            <summary>Sets the stub of IDog.get_HasAlreadyBeenVerified()</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDog.HasAlreadyBeenVerifiedSetBoolean">
+            <summary>Sets the stub of IDog.set_HasAlreadyBeenVerified(Boolean value)</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubIDog.DogDaycareTracker#Core#IDog#Weight">
+            <summary>Sets the stub of IDog.get_Weight()</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDog.WeightGet">
+            <summary>Sets the stub of IDog.get_Weight()</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDog.WeightSetInt32">
+            <summary>Sets the stub of IDog.set_Weight(Int32 value)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubIDogFactory">
+            <summary>Stub type of DogDaycareTracker.Core.IDogFactory</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDogFactory.#ctor">
+            <summary>Initializes a new instance of type StubIDogFactory</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDogFactory.DogDaycareTracker#Core#IDogFactory#GetDog(System.Int32)">
+            <summary>Sets the stub of IDogFactory.GetDog(Int32 dogId)</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDogFactory.GetDogInt32">
+            <summary>Sets the stub of IDogFactory.GetDog(Int32 dogId)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubIDogSizeDecider">
+            <summary>Stub type of DogDaycareTracker.Core.IDogSizeDecider</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDogSizeDecider.#ctor">
+            <summary>Initializes a new instance of type StubIDogSizeDecider</summary>
+        </member>
+        <member name="F:DogDaycareTracker.Core.Fakes.StubIDogSizeDecider.DecideTheDogSzieInt32">
+            <summary>Sets the stub of IDogSizeDecider.DecideTheDogSzie(Int32 theDogSize)</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubIDogSizeDecider.DogDaycareTracker#Core#IDogSizeDecider#DecideTheDogSzie(System.Int32)">
+            <summary>Sets the stub of IDogSizeDecider.DecideTheDogSzie(Int32 theDogSize)</summary>
+        </member>
+        <member name="T:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier">
+            <summary>Stub type of DogDaycareTracker.Core.PalyInYardVerifier</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier.InitializeStub">
+            <summary>Initializes a new instance of type StubPalyInYardVerifier</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DogDaycareTracker.Core.Fakes.StubPalyInYardVerifier.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

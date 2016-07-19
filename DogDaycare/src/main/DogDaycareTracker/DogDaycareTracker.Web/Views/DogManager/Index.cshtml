@@ -1,0 +1,40 @@
+﻿@model DogDaycareTracker.Web.Models.NewDog
+@{
+    ViewBag.Title = "Manage Dog";
+}
+
+
+    <div class="jumbotron">
+        Add new dog:
+        <div style="float:right; position: relative;display: block;"><img src="~/Content/coco.JPG" height="100px" /></div> 
+    </div>
+    @using (Html.BeginForm("Index", "DogManager", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        <div class="form-group">
+            @Html.LabelFor(m => m.DogName, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.DogName, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.DogWeight, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.DogWeight, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.DogAge, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.DogAge, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" class="btn btn-default" value="Add Dog" />
+            </div>
+        </div>
+        <div id="divForParent" >
+            <div id="divForInnerText" >@Model.WasAdded</div>
+        </div>
+    }
+

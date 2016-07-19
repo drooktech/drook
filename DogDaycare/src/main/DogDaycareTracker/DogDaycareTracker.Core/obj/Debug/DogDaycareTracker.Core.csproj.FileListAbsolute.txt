@@ -1,0 +1,10 @@
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\bin\Debug\DogDaycareTracker.Core.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\bin\Debug\DogDaycareTracker.Core.pdb
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.csprojResolveAssemblyReference.cache
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.pdb
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\bin\Debug\DogDaycareTracker.Core.dll
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\bin\Debug\DogDaycareTracker.Core.pdb
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.csprojResolveAssemblyReference.cache
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.dll
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.Core\obj\Debug\DogDaycareTracker.Core.pdb

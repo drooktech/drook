@@ -1,0 +1,16 @@
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\WebTest1.webtest
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\DogDaycareTracker.WandLTest.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\DogDaycareTracker.WandLTest.pdb
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.xml
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.csprojResolveAssemblyReference.cache
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.dll
+C:\tfs\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.pdb
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\WebTest1.webtest
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\DogDaycareTracker.WandLTest.dll
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\DogDaycareTracker.WandLTest.pdb
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.xml
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.csprojResolveAssemblyReference.cache
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.dll
+C:\gh\drook\DogDaycare\src\main\DogDaycareTracker\DogDaycareTracker.WandLTest\obj\Debug\DogDaycareTracker.WandLTest.pdb

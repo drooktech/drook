@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker", "DogDaycareTracker\DogDaycareTracker.csproj", "{6C0F58BC-CC8A-4324-83B0-19B220673B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.DataRepository", "DogDaycareTracker.DataRepository\DogDaycareTracker.DataRepository.csproj", "{CFA22679-7867-40D8-9C3D-E1D2B02EC57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.Core", "DogDaycareTracker.Core\DogDaycareTracker.Core.csproj", "{9CABEE3F-C58A-40B2-83B6-369B1C0D409D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.CoreTests", "DogDaycareTracker.CoreTests\DogDaycareTracker.CoreTests.csproj", "{F777875A-EF82-45CF-8064-2243F39D09BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.WpfClient", "DogDaycareTracker.WpfClient\DogDaycareTracker.WpfClient.csproj", "{93B5E5A7-F66E-474F-9DCE-6AA068D92B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2283B0AA-2269-43C2-B7DB-E76AB7539949}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		version.ps1 = version.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDayCareTracker.Common.Tests", "DogDayCareTracker.Common.Tests\DogDayCareTracker.Common.Tests.csproj", "{F1CBBD89-CB9D-496D-BE31-D81FC7ABC925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.WandLTest", "DogDaycareTracker.WandLTest\DogDaycareTracker.WandLTest.csproj", "{D71D2B3D-7FEF-4BF1-9CC7-47261DA22748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.Web", "DogDaycareTracker.Web\DogDaycareTracker.Web.csproj", "{56F6C0A1-CC60-4555-BA06-D8C9774656E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogDaycareTracker.CUI.Tests", "DogDaycareTracker.CUI.Tests\DogDaycareTracker.CUI.Tests.csproj", "{30AB3F2B-50FC-48AE-85CC-636052FB673F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0F58BC-CC8A-4324-83B0-19B220673B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0F58BC-CC8A-4324-83B0-19B220673B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0F58BC-CC8A-4324-83B0-19B220673B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0F58BC-CC8A-4324-83B0-19B220673B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA22679-7867-40D8-9C3D-E1D2B02EC57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA22679-7867-40D8-9C3D-E1D2B02EC57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA22679-7867-40D8-9C3D-E1D2B02EC57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA22679-7867-40D8-9C3D-E1D2B02EC57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CABEE3F-C58A-40B2-83B6-369B1C0D409D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CABEE3F-C58A-40B2-83B6-369B1C0D409D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CABEE3F-C58A-40B2-83B6-369B1C0D409D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CABEE3F-C58A-40B2-83B6-369B1C0D409D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F777875A-EF82-45CF-8064-2243F39D09BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F777875A-EF82-45CF-8064-2243F39D09BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F777875A-EF82-45CF-8064-2243F39D09BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F777875A-EF82-45CF-8064-2243F39D09BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B5E5A7-F66E-474F-9DCE-6AA068D92B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B5E5A7-F66E-474F-9DCE-6AA068D92B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B5E5A7-F66E-474F-9DCE-6AA068D92B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B5E5A7-F66E-474F-9DCE-6AA068D92B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CBBD89-CB9D-496D-BE31-D81FC7ABC925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CBBD89-CB9D-496D-BE31-D81FC7ABC925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CBBD89-CB9D-496D-BE31-D81FC7ABC925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CBBD89-CB9D-496D-BE31-D81FC7ABC925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71D2B3D-7FEF-4BF1-9CC7-47261DA22748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71D2B3D-7FEF-4BF1-9CC7-47261DA22748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71D2B3D-7FEF-4BF1-9CC7-47261DA22748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71D2B3D-7FEF-4BF1-9CC7-47261DA22748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F6C0A1-CC60-4555-BA06-D8C9774656E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F6C0A1-CC60-4555-BA06-D8C9774656E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F6C0A1-CC60-4555-BA06-D8C9774656E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F6C0A1-CC60-4555-BA06-D8C9774656E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AB3F2B-50FC-48AE-85CC-636052FB673F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AB3F2B-50FC-48AE-85CC-636052FB673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AB3F2B-50FC-48AE-85CC-636052FB673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AB3F2B-50FC-48AE-85CC-636052FB673F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://drook.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DogDaycareTracker\\DogDaycareTracker.csproj
+		SccProjectName1 = DogDaycareTracker
+		SccLocalPath1 = DogDaycareTracker
+		SccProjectUniqueName2 = DogDaycareTracker.DataRepository\\DogDaycareTracker.DataRepository.csproj
+		SccProjectName2 = DogDaycareTracker.DataRepository
+		SccLocalPath2 = DogDaycareTracker.DataRepository
+		SccProjectUniqueName3 = DogDaycareTracker.Core\\DogDaycareTracker.Core.csproj
+		SccProjectName3 = DogDaycareTracker.Core
+		SccLocalPath3 = DogDaycareTracker.Core
+		SccProjectUniqueName4 = DogDaycareTracker.CoreTests\\DogDaycareTracker.CoreTests.csproj
+		SccProjectName4 = DogDaycareTracker.CoreTests
+		SccLocalPath4 = DogDaycareTracker.CoreTests
+		SccProjectUniqueName5 = DogDaycareTracker.WpfClient\\DogDaycareTracker.WpfClient.csproj
+		SccProjectName5 = DogDaycareTracker.WpfClient
+		SccLocalPath5 = DogDaycareTracker.WpfClient
+		SccProjectUniqueName6 = DogDayCareTracker.Common.Tests\\DogDayCareTracker.Common.Tests.csproj
+		SccProjectName6 = DogDayCareTracker.Common.Tests
+		SccLocalPath6 = DogDayCareTracker.Common.Tests
+		SccProjectUniqueName7 = DogDaycareTracker.WandLTest\\DogDaycareTracker.WandLTest.csproj
+		SccProjectName7 = DogDaycareTracker.WandLTest
+		SccLocalPath7 = DogDaycareTracker.WandLTest
+		SccProjectUniqueName8 = DogDaycareTracker.Web\\DogDaycareTracker.Web.csproj
+		SccProjectName8 = DogDaycareTracker.Web
+		SccLocalPath8 = DogDaycareTracker.Web
+		SccProjectUniqueName9 = DogDaycareTracker.CUI.Tests\\DogDaycareTracker.CUI.Tests.csproj
+		SccProjectName9 = DogDaycareTracker.CUI.Tests
+		SccLocalPath9 = DogDaycareTracker.CUI.Tests
+	EndGlobalSection
+EndGlobal
